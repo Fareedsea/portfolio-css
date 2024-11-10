@@ -24,7 +24,7 @@ return (<div className="home" id="home">
           <Link href="/Assets/CV-Fareed.pdf" className="btn">Download CV</Link>
         </div>
         <div className="home-img">
-        <Image src={require('../../../public/Assets/Fareed.jpg')} height={200} width={200} alt='Fareed Picture'></Image>
+        <Image src='../../../public/Assets/Fareed.jpg' height={200} width={200} alt='Fareed Picture'></Image>
         </div>
     </div>
  )

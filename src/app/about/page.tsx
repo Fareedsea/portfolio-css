@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about" id="about">
         <div className="about-img">
-          <Image src={require('../../../public/Assets/Fareed.jpg')} height={200} width={200} alt='Fareed Picture'></Image>
+          <Image src='../../../public/Assets/Fareed.jpg' height={200} width={200} alt='Fareed Picture'></Image>
         
         </div>
 <   div className="about-content">
