@@ -24,9 +24,9 @@ return (<div className="home" id="home">
           </div>
           <Link href="/Assets/CV-Fareed.pdf" className="btn">Download CV</Link>
         </div>
-        <div className="home-img">
+        {/* <div className="home-img">
         <Image src='/Assets/Fareed.jpg' height={400} width={400} alt='Fareed Picture'></Image>
-        </div>
+        </div> */}
     </div>
  )
 }
