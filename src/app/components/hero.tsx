@@ -22,7 +22,7 @@ export default function Hero() {
             <i className="fa-brands fa-facebook"></i>
           </Link>
           <Link href="#">
-            <i className="fa-brands fa-twiter"></i>
+            <i className="fa-brands fa-twitter"></i>
           </Link>
           <Link href="#">
             <i className="fa-brands fa-instagram"></i>
@@ -31,8 +31,10 @@ export default function Hero() {
             <i className="fa-brands fa-linkedin-in"></i>
           </Link>
         </div>
-        <Link href="/Assets/CV-Fareed.pdf" className="btn">
+        <Link href="/Assets/CV-Fareed.pdf">
+        <div className="btn">
           Download CV
+          </div>
         </Link>
       </div>
       <div className="home-img">
